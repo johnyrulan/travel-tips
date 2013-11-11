@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		977ABF74183143C60035AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF73183143C60035AE75 /* Foundation.framework */; };
+		977ABF76183143C60035AE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF75183143C60035AE75 /* CoreGraphics.framework */; };
+		977ABF78183143C60035AE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF77183143C60035AE75 /* UIKit.framework */; };
+		977ABF7E183143C60035AE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF7C183143C60035AE75 /* InfoPlist.strings */; };
+		977ABF80183143C60035AE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF7F183143C60035AE75 /* main.m */; };
+		977ABF84183143C60035AE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF83183143C60035AE75 /* AppDelegate.m */; };
+		977ABF87183143C60035AE75 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF85183143C60035AE75 /* Main_iPhone.storyboard */; };
+		977ABF8A183143C60035AE75 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF88183143C60035AE75 /* Main_iPad.storyboard */; };
+		977ABF8D183143C60035AE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF8C183143C60035AE75 /* ViewController.m */; };
+		977ABF8F183143C60035AE75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF8E183143C60035AE75 /* Images.xcassets */; };
+		977ABF96183143C60035AE75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF95183143C60035AE75 /* XCTest.framework */; };
+		977ABF97183143C60035AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF73183143C60035AE75 /* Foundation.framework */; };
+		977ABF98183143C60035AE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF77183143C60035AE75 /* UIKit.framework */; };
+		977ABFA0183143C60035AE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF9E183143C60035AE75 /* InfoPlist.strings */; };
+		977ABFA2183143C60035AE75 /* TravelTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABFA1183143C60035AE75 /* TravelTipsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		977ABF99183143C60035AE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 977ABF68183143C60035AE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977ABF6F183143C60035AE75;
+			remoteInfo = TravelTips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		977ABF70183143C60035AE75 /* TravelTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		977ABF73183143C60035AE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		977ABF75183143C60035AE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		977ABF77183143C60035AE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		977ABF7B183143C60035AE75 /* TravelTips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelTips-Info.plist"; sourceTree = "<group>"; };
+		977ABF7D183143C60035AE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		977ABF7F183143C60035AE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		977ABF81183143C60035AE75 /* TravelTips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelTips-Prefix.pch"; sourceTree = "<group>"; };
+		977ABF82183143C60035AE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		977ABF83183143C60035AE75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		977ABF86183143C60035AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		977ABF89183143C60035AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		977ABF8B183143C60035AE75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		977ABF8C183143C60035AE75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		977ABF8E183143C60035AE75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		977ABF94183143C60035AE75 /* TravelTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		977ABF95183143C60035AE75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		977ABF9D183143C60035AE75 /* TravelTipsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelTipsTests-Info.plist"; sourceTree = "<group>"; };
+		977ABF9F183143C60035AE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		977ABFA1183143C60035AE75 /* TravelTipsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTipsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		977ABF6D183143C60035AE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABF76183143C60035AE75 /* CoreGraphics.framework in Frameworks */,
+				977ABF78183143C60035AE75 /* UIKit.framework in Frameworks */,
+				977ABF74183143C60035AE75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977ABF91183143C60035AE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABF96183143C60035AE75 /* XCTest.framework in Frameworks */,
+				977ABF98183143C60035AE75 /* UIKit.framework in Frameworks */,
+				977ABF97183143C60035AE75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		977ABF67183143C60035AE75 = {
+			isa = PBXGroup;
+			children = (
+				977ABF79183143C60035AE75 /* TravelTips */,
+				977ABF9B183143C60035AE75 /* TravelTipsTests */,
+				977ABF72183143C60035AE75 /* Frameworks */,
+				977ABF71183143C60035AE75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		977ABF71183143C60035AE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF70183143C60035AE75 /* TravelTips.app */,
+				977ABF94183143C60035AE75 /* TravelTipsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		977ABF72183143C60035AE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF73183143C60035AE75 /* Foundation.framework */,
+				977ABF75183143C60035AE75 /* CoreGraphics.framework */,
+				977ABF77183143C60035AE75 /* UIKit.framework */,
+				977ABF95183143C60035AE75 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977ABF79183143C60035AE75 /* TravelTips */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF82183143C60035AE75 /* AppDelegate.h */,
+				977ABF83183143C60035AE75 /* AppDelegate.m */,
+				977ABF85183143C60035AE75 /* Main_iPhone.storyboard */,
+				977ABF88183143C60035AE75 /* Main_iPad.storyboard */,
+				977ABF8B183143C60035AE75 /* ViewController.h */,
+				977ABF8C183143C60035AE75 /* ViewController.m */,
+				977ABF8E183143C60035AE75 /* Images.xcassets */,
+				977ABF7A183143C60035AE75 /* Supporting Files */,
+			);
+			path = TravelTips;
+			sourceTree = "<group>";
+		};
+		977ABF7A183143C60035AE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF7B183143C60035AE75 /* TravelTips-Info.plist */,
+				977ABF7C183143C60035AE75 /* InfoPlist.strings */,
+				977ABF7F183143C60035AE75 /* main.m */,
+				977ABF81183143C60035AE75 /* TravelTips-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		977ABF9B183143C60035AE75 /* TravelTipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				977ABFA1183143C60035AE75 /* TravelTipsTests.m */,
+				977ABF9C183143C60035AE75 /* Supporting Files */,
+			);
+			path = TravelTipsTests;
+			sourceTree = "<group>";
+		};
+		977ABF9C183143C60035AE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF9D183143C60035AE75 /* TravelTipsTests-Info.plist */,
+				977ABF9E183143C60035AE75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		977ABF6F183143C60035AE75 /* TravelTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977ABFA5183143C60035AE75 /* Build configuration list for PBXNativeTarget "TravelTips" */;
+			buildPhases = (
+				977ABF6C183143C60035AE75 /* Sources */,
+				977ABF6D183143C60035AE75 /* Frameworks */,
+				977ABF6E183143C60035AE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelTips;
+			productName = TravelTips;
+			productReference = 977ABF70183143C60035AE75 /* TravelTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		977ABF93183143C60035AE75 /* TravelTipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977ABFA8183143C60035AE75 /* Build configuration list for PBXNativeTarget "TravelTipsTests" */;
+			buildPhases = (
+				977ABF90183143C60035AE75 /* Sources */,
+				977ABF91183143C60035AE75 /* Frameworks */,
+				977ABF92183143C60035AE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977ABF9A183143C60035AE75 /* PBXTargetDependency */,
+			);
+			name = TravelTipsTests;
+			productName = TravelTipsTests;
+			productReference = 977ABF94183143C60035AE75 /* TravelTipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		977ABF68183143C60035AE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Johny Rulan";
+				TargetAttributes = {
+					977ABF93183143C60035AE75 = {
+						TestTargetID = 977ABF6F183143C60035AE75;
+					};
+				};
+			};
+			buildConfigurationList = 977ABF6B183143C60035AE75 /* Build configuration list for PBXProject "TravelTips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 977ABF67183143C60035AE75;
+			productRefGroup = 977ABF71183143C60035AE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				977ABF6F183143C60035AE75 /* TravelTips */,
+				977ABF93183143C60035AE75 /* TravelTipsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		977ABF6E183143C60035AE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABF8A183143C60035AE75 /* Main_iPad.storyboard in Resources */,
+				977ABF8F183143C60035AE75 /* Images.xcassets in Resources */,
+				977ABF87183143C60035AE75 /* Main_iPhone.storyboard in Resources */,
+				977ABF7E183143C60035AE75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977ABF92183143C60035AE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABFA0183143C60035AE75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		977ABF6C183143C60035AE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABF8D183143C60035AE75 /* ViewController.m in Sources */,
+				977ABF84183143C60035AE75 /* AppDelegate.m in Sources */,
+				977ABF80183143C60035AE75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977ABF90183143C60035AE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977ABFA2183143C60035AE75 /* TravelTipsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977ABF9A183143C60035AE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 977ABF6F183143C60035AE75 /* TravelTips */;
+			targetProxy = 977ABF99183143C60035AE75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		977ABF7C183143C60035AE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977ABF7D183143C60035AE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		977ABF85183143C60035AE75 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977ABF86183143C60035AE75 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		977ABF88183143C60035AE75 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977ABF89183143C60035AE75 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		977ABF9E183143C60035AE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				977ABF9F183143C60035AE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		977ABFA3183143C60035AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		977ABFA4183143C60035AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		977ABFA6183143C60035AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelTips/TravelTips-Prefix.pch";
+				INFOPLIST_FILE = "TravelTips/TravelTips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		977ABFA7183143C60035AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelTips/TravelTips-Prefix.pch";
+				INFOPLIST_FILE = "TravelTips/TravelTips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		977ABFA9183143C60035AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravelTips.app/TravelTips";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelTips/TravelTips-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TravelTipsTests/TravelTipsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		977ABFAA183143C60035AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravelTips.app/TravelTips";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelTips/TravelTips-Prefix.pch";
+				INFOPLIST_FILE = "TravelTipsTests/TravelTipsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		977ABF6B183143C60035AE75 /* Build configuration list for PBXProject "TravelTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977ABFA3183143C60035AE75 /* Debug */,
+				977ABFA4183143C60035AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977ABFA5183143C60035AE75 /* Build configuration list for PBXNativeTarget "TravelTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977ABFA6183143C60035AE75 /* Debug */,
+				977ABFA7183143C60035AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		977ABFA8183143C60035AE75 /* Build configuration list for PBXNativeTarget "TravelTipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				977ABFA9183143C60035AE75 /* Debug */,
+				977ABFAA183143C60035AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 977ABF68183143C60035AE75 /* Project object */;
+}
