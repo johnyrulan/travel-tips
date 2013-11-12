@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970E08CF183278DE00DAF6C3 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970E08CE183278DE00DAF6C3 /* CalculatorViewController.m */; };
+		970E08D118328C4400DAF6C3 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 970E08D018328C4400DAF6C3 /* countries.json */; };
 		977ABF74183143C60035AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF73183143C60035AE75 /* Foundation.framework */; };
 		977ABF76183143C60035AE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF75183143C60035AE75 /* CoreGraphics.framework */; };
 		977ABF78183143C60035AE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF77183143C60035AE75 /* UIKit.framework */; };
@@ -14,8 +16,7 @@
 		977ABF80183143C60035AE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF7F183143C60035AE75 /* main.m */; };
 		977ABF84183143C60035AE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF83183143C60035AE75 /* AppDelegate.m */; };
 		977ABF87183143C60035AE75 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF85183143C60035AE75 /* Main_iPhone.storyboard */; };
-		977ABF8A183143C60035AE75 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF88183143C60035AE75 /* Main_iPad.storyboard */; };
-		977ABF8D183143C60035AE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF8C183143C60035AE75 /* ViewController.m */; };
+		977ABF8D183143C60035AE75 /* TravelTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 977ABF8C183143C60035AE75 /* TravelTipsViewController.m */; };
 		977ABF8F183143C60035AE75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977ABF8E183143C60035AE75 /* Images.xcassets */; };
 		977ABF96183143C60035AE75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF95183143C60035AE75 /* XCTest.framework */; };
 		977ABF97183143C60035AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ABF73183143C60035AE75 /* Foundation.framework */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970E08CD183278DE00DAF6C3 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		970E08CE183278DE00DAF6C3 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		970E08D018328C4400DAF6C3 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
 		977ABF70183143C60035AE75 /* TravelTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		977ABF73183143C60035AE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		977ABF75183143C60035AE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,9 +50,8 @@
 		977ABF82183143C60035AE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		977ABF83183143C60035AE75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		977ABF86183143C60035AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		977ABF89183143C60035AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		977ABF8B183143C60035AE75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		977ABF8C183143C60035AE75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		977ABF8B183143C60035AE75 /* TravelTipsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelTipsViewController.h; sourceTree = "<group>"; };
+		977ABF8C183143C60035AE75 /* TravelTipsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTipsViewController.m; sourceTree = "<group>"; };
 		977ABF8E183143C60035AE75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		977ABF94183143C60035AE75 /* TravelTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		977ABF95183143C60035AE75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,12 +117,11 @@
 		977ABF79183143C60035AE75 /* TravelTips */ = {
 			isa = PBXGroup;
 			children = (
+				977ABFAD183144620035AE75 /* Models */,
+				977ABFAC1831444B0035AE75 /* Controllers */,
+				977ABFAB183144310035AE75 /* Views */,
 				977ABF82183143C60035AE75 /* AppDelegate.h */,
 				977ABF83183143C60035AE75 /* AppDelegate.m */,
-				977ABF85183143C60035AE75 /* Main_iPhone.storyboard */,
-				977ABF88183143C60035AE75 /* Main_iPad.storyboard */,
-				977ABF8B183143C60035AE75 /* ViewController.h */,
-				977ABF8C183143C60035AE75 /* ViewController.m */,
 				977ABF8E183143C60035AE75 /* Images.xcassets */,
 				977ABF7A183143C60035AE75 /* Supporting Files */,
 			);
@@ -129,6 +131,7 @@
 		977ABF7A183143C60035AE75 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				970E08D018328C4400DAF6C3 /* countries.json */,
 				977ABF7B183143C60035AE75 /* TravelTips-Info.plist */,
 				977ABF7C183143C60035AE75 /* InfoPlist.strings */,
 				977ABF7F183143C60035AE75 /* main.m */,
@@ -153,6 +156,33 @@
 				977ABF9E183143C60035AE75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		977ABFAB183144310035AE75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF85183143C60035AE75 /* Main_iPhone.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		977ABFAC1831444B0035AE75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				977ABF8B183143C60035AE75 /* TravelTipsViewController.h */,
+				977ABF8C183143C60035AE75 /* TravelTipsViewController.m */,
+				970E08CD183278DE00DAF6C3 /* CalculatorViewController.h */,
+				970E08CE183278DE00DAF6C3 /* CalculatorViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		977ABFAD183144620035AE75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +261,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				977ABF8A183143C60035AE75 /* Main_iPad.storyboard in Resources */,
 				977ABF8F183143C60035AE75 /* Images.xcassets in Resources */,
 				977ABF87183143C60035AE75 /* Main_iPhone.storyboard in Resources */,
+				970E08D118328C4400DAF6C3 /* countries.json in Resources */,
 				977ABF7E183143C60035AE75 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				977ABF8D183143C60035AE75 /* ViewController.m in Sources */,
+				977ABF8D183143C60035AE75 /* TravelTipsViewController.m in Sources */,
 				977ABF84183143C60035AE75 /* AppDelegate.m in Sources */,
+				970E08CF183278DE00DAF6C3 /* CalculatorViewController.m in Sources */,
 				977ABF80183143C60035AE75 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +323,6 @@
 				977ABF86183143C60035AE75 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		977ABF88183143C60035AE75 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				977ABF89183143C60035AE75 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		977ABF9E183143C60035AE75 /* InfoPlist.strings */ = {
@@ -474,6 +497,7 @@
 				977ABFA7183143C60035AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		977ABFA8183143C60035AE75 /* Build configuration list for PBXNativeTarget "TravelTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +506,7 @@
 				977ABFAA183143C60035AE75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

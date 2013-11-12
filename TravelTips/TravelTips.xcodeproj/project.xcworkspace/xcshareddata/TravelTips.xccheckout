@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6EBF74FE-E8C6-43F3-A202-096109366B40</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TravelTips</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>603CE164-EB05-480A-B624-25A6DA9114A7</key>
+		<string>https://github.com/johnyrulan/travel-tips.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TravelTips/TravelTips.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>603CE164-EB05-480A-B624-25A6DA9114A7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/johnyrulan/travel-tips.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>603CE164-EB05-480A-B624-25A6DA9114A7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>603CE164-EB05-480A-B624-25A6DA9114A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TravelTips</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  TravelTips
 //
-//  Created by Fred Schweig on 11/11/13.
+//  Created by Johny Rulan on 11/11/13.
 //  Copyright (c) 2013 Johny Rulan. All rights reserved.
 //
 
@@ -12,7 +12,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     return YES;
 }
 							
